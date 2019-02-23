@@ -1,127 +1,141 @@
 body{
-    margin-top: 100px;
-    background: rgb(39, 78, 7);
-    color: rgb(204, 187, 35);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
-}
-
-
-
-.HeaderHM{
-    display: block;
-    max-width: 1024px;
-    min-width: 600px;
-    margin: 0 auto;
-    padding: 5px;
-    position: relative;
-    background: #e0f2f7;
-}
-
-.headerName{
-    display: inline; /* Отображать как строчный элемент */
-    border: 2px solid rgb(49, 44, 44);
-    overflow: hidden;
-}
-
-.HDM {
-    margin: 0; /* Обнуляем значение отступов */
-    padding: 4px; /* Значение полей */
-   }
-.HDM li {
-    display: inline; /* Отображать как строчный элемент */
-    margin-right: 5px; /* Отступ слева */
-    border: 1px solid #000; /* Рамка вокруг текста */
-    padding: 3px; /* Поля вокруг текста */
-   }
-
-
-.headerMenu{
-    background-image: url('img/fonLogo.png');
-    display: flex;
-    flex-direction: row;
-    text-align: justify;
-    text-align: center;
-    display: block;
-    flex-direction: column;
-    justify-content: flex-end;
-    display: flex;
+    margin: 1px;
+    /*Устанавливает величину отступа от верхнего края границы до текущего элемента
+    margin - внутренние отступы в блоке от его границы до элемента (например текста)
+    top - в этой поставновке это верхний отступ*/
     
-} 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+    /*Устанавливает симейство шрифта.*/
+    
+    
 
-
-
-/**/
-
-
-
-body{
-    margin-top: 10px;
-    background: #000;
-    color: whitesmoke;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.main-wrapper{
-    width: 1024px;
-    height: 90vh;
-    border: 0.5 solid white;
-    margin: 0 auto;
-}
-.main {
-    display: flex;
-    flex-direction: row;
-    text-align: justify;
-}
-.main .content {
-    border-left: 2px solid white; 
-    height: 75vh;
-    padding-left: 15px;
-}
-.wrapper {
-    height:100px;
-    background: linear-gradient(to bottom, #1339A4 0%, #394CCB 50%, #1C0D75 100%);
-    display: flex;
-    align-items: center;
-}
-.logo {
-    margin-left: 10px;
-    padding: 30px 10px;
-    background-color: rgb(6, 67, 136);
 }
 
-.main-menu ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    margin: 0 auto;
-    list-style: none;
+.Site{
+    display: block;
+    /*display - многоцелевое свойство, которое показывает, как элемент должен быть в документе.*/
+    border: 5px outset red;
+    /*Задает границу элемента*/
+    border-radius: 7px;
+    /*Округления углов границы элемента*/
+    padding: 1px 1px 1px 1px;
+    /*Внешние отсупы элемента до границы*/
+    padding: 1px 1px 1px 1px;
+    /*Внешние отсупы элемента*/
+    width: 98vw;
+    /*Задаем ширину объека*/
+    background: rgb(177, 212, 149);
+    /*Устанавливает характеристики фона, одновременно может 5, характеристики разделяются пробелами*/
+    color: rgb(34, 33, 23);
+    /*Определяет цвет текста элемента.*/
+    position: relative;
+    /*Позиционирование*/
+    
 }
 
-.vertical-menu {
-    display: flex;
-    flex-direction: column;
+/*Шапка*/
+
+.CapSite{
+    display: block;
+    /*display - многоцелевое свойство, которое показывает, как элемент должен быть в документе.*/ 
+    
+}
+
+.LogoCompany{
+    line-height: 120px;
+    /*Устанавливает межстрочный интервал.*/
+    font-size: 70px;
+    /*Определяет размер шрифта текста элемента.*/
+    color: #da9a12;
+    /*Определяет цвет текста элемента.*/
+    text-align: center;
+    /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+    background: rgb(12, 121, 30);
+    /*Устанавливает характеристики фона, одновременно может 5, характеристики разделяются пробелами*/
+    border-radius: 7px;
+    /*Округления углов границы элемента*/
+    margin: 5px 5px 5px 5px;
+    /*Внешние отступы*/
+    border: 4px solid #d8780a;
+    /*Граница вокруг элемента*/
+}
+
+.HeaderMenu{
+    font-size: 17px;
+    /*Определяет размер шрифта текста элемента.*/
+    text-align: center;
+    /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+    background: #da9a12;
+    /*Устанавливает характеристики фона, одновременно может 5, характеристики разделяются пробелами*/
+    margin: 5px 5px 5px 5px;
+    /*Устанавливает величину отступа от верхнего края границы до текущего элемента*/
+    height: 55px;
+    /*Задаем высоту объекта*/
+    border-radius: 7px;
+    /*Округления углов границы элемента*/
+    font-size: 35px;
+    /*Определяет размер шрифта текста элемента.*/
+    border: 4px solid rgb(12, 121, 30);
+    /*Граница вокруг элемента*/
 }
 
 a {
-    display: block;
-    border-radius: 6px;
-    color: rgb(255, 255, 255);
-    list-style: none;  
-    width: 100px;
-    padding: 10px 15px;
-    text-align: center;
-    text-decoration: none;
-}
-a:hover {
-    background-color: rgb(48, 130, 253);
-    color: black;
+	font-size: 17px;
+    /*Определяет размер шрифта текста элемента.*/
+    color: #d8780a;
+	text-align: center;
+	line-height: 5px;
+    text-decoration: none; 
+    padding: 10px;
 }
 
-.fa-facebook, .fa-vk {
-    color: rgb(255, 255, 255);
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 35px;
+a:hover {
+    /*оперделяет стиль элемента (в данном случае это элемент "а")
+    при наведении на него курсора мыши, но при этом элемент еще не активен.*/
+    background-color: #da9a12;
+    /*Определяет цвет фона элемента, в данном случае, когда наводишь курсором мыши на элемент "а",
+    то он подсвечивается выбранным цветом.
+    Если установить значение transparent - устанавливается прозрачный фон
+    Если установить значение inherit - наследует значение родителя, так как изначально
+    оно не наследует значение родителя*/
+    color: black;
+    /*Определяет цвет текста элемента, в данном случае "а".*/
+    
 }
-footer {
-    text-align: center
+
+.VerticalMenu{
+    
+}
+
+
+.Content{
+    width: calc(100% - 200px);
+    float: right;
+    text-align: justify;
+    /*Выравнивание текста по ширине, что означает одновременное выравнивание по левому и правому краю. Чтобы произвести это действие браузер в этом случае добавляет пробелы между словами.*/
+    padding: 5px 5px 5px 10px;
+    border: 4px solid #d8780a;
+    background: #bfdd5c;
+    margin: 2px 5px 5px 5px;
+    /*Устанавливает величину отступа от верхнего края границы до текущего элемента*/
+    border-radius: 7px;
+    /*Округления углов границы элемента*/
+}
+
+.End{
+    clear: both;
+    display: block;
+    background: #da9a12;  
+    color: rgb(12, 121, 30);
+    /*Цвет фона*/
+    text-align: center;
+    /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+    border-radius: 7px;
+    /*Округления углов границы элемента*/
+    text-align: center;
+    border: 4px solid #d8780a;
+    margin: 5px;
+    padding: 40px;
+    /*Задаем внутренний отступ от внутн. элемента до границы.*/
+    
 }
