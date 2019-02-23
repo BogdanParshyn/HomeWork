@@ -6,12 +6,11 @@ body{
     
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
     /*Устанавливает симейство шрифта.*/
-    
-    
-
+    display: block;
 }
 
 .Site{
+    width: 1024px;
     display: block;
     /*display - многоцелевое свойство, которое показывает, как элемент должен быть в документе.*/
     border: 5px outset red;
@@ -30,7 +29,6 @@ body{
     /*Определяет цвет текста элемента.*/
     position: relative;
     /*Позиционирование*/
-    
 }
 
 /*Шапка*/
@@ -38,7 +36,6 @@ body{
 .CapSite{
     display: block;
     /*display - многоцелевое свойство, которое показывает, как элемент должен быть в документе.*/ 
-    
 }
 
 .LogoCompany{
@@ -60,6 +57,8 @@ body{
     /*Граница вокруг элемента*/
 }
 
+/*Главное Меню, центральная верхняя часть*/
+
 .HeaderMenu{
     font-size: 17px;
     /*Определяет размер шрифта текста элемента.*/
@@ -71,25 +70,30 @@ body{
     /*Устанавливает величину отступа от верхнего края границы до текущего элемента*/
     height: 55px;
     /*Задаем высоту объекта*/
+    position: relative;
     border-radius: 7px;
     /*Округления углов границы элемента*/
     font-size: 35px;
     /*Определяет размер шрифта текста элемента.*/
     border: 4px solid rgb(12, 121, 30);
-    /*Граница вокруг элемента*/
+    /*Граница вокруг элемента*/ 
+    width: inherit;
+    overflow: hidden;
 }
 
-a {
-	font-size: 17px;
+.upmenu {
+    font-size: 17px;
     /*Определяет размер шрифта текста элемента.*/
     color: #d8780a;
 	text-align: center;
 	line-height: 5px;
     text-decoration: none; 
     padding: 10px;
+    width: 100px;
+    border: 4px solid #da9a12;
 }
 
-a:hover {
+.upmenu:hover {
     /*оперделяет стиль элемента (в данном случае это элемент "а")
     при наведении на него курсора мыши, но при этом элемент еще не активен.*/
     background-color: #da9a12;
@@ -98,29 +102,85 @@ a:hover {
     Если установить значение transparent - устанавливается прозрачный фон
     Если установить значение inherit - наследует значение родителя, так как изначально
     оно не наследует значение родителя*/
-    color: black;
+    color: whitesmoke;
     /*Определяет цвет текста элемента, в данном случае "а".*/
-    
+    border: 4px solid whitesmoke;
+    border-radius: 7px;
+
 }
+
+/*Вертикальное меню, левая часть*/
 
 .VerticalMenu{
-    
-}
-
-
-.Content{
-    width: calc(100% - 200px);
-    float: right;
+    width: 244px;
+    float: left;
     text-align: justify;
     /*Выравнивание текста по ширине, что означает одновременное выравнивание по левому и правому краю. Чтобы произвести это действие браузер в этом случае добавляет пробелы между словами.*/
-    padding: 5px 5px 5px 10px;
+    padding: 5px 0px 5px 5px;
     border: 4px solid #d8780a;
     background: #bfdd5c;
-    margin: 2px 5px 5px 5px;
+    margin: 0px 0px 5px 5px;
     /*Устанавливает величину отступа от верхнего края границы до текущего элемента*/
     border-radius: 7px;
     /*Округления углов границы элемента*/
 }
+
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+ul {
+    margin-left: 0; /* Отступ*/
+    padding-left: 0; /* Отступ*/
+}
+
+.leftmenu{
+    float: left;
+    width: 100px;
+    margin: 5px 5px 5px 5px;
+	color: #d8780a;
+	text-align: center;
+	line-height: 12px;
+    text-decoration: none; 
+    padding: 11px 53px 11px 65px;
+    border: 4px solid #d8780a;
+    border-radius: 7px;
+    /*Округления углов границы элемента*/
+}
+
+.leftmenu:hover {
+    /*оперделяет стиль элемента (в данном случае это элемент "а")
+    при наведении на него курсора мыши, но при этом элемент еще не активен.*/
+    background-color: rgb(12, 121, 30);
+    /*Определяет цвет фона элемента, в данном случае, когда наводишь курсором мыши на элемент "а",
+    то он подсвечивается выбранным цветом.
+    Если установить значение transparent - устанавливается прозрачный фон
+    Если установить значение inherit - наследует значение родителя, так как изначально
+    оно не наследует значение родителя*/
+    color: white;
+    /*Определяет цвет текста элемента, в данном случае "а".*/
+    border: 4px solid whitesmoke;
+    border-radius: 7px;
+}
+
+
+/*Контент, центральная часть сайта.*/
+
+.Content{
+    width: calc(100% - 300px);
+    float: right;
+    text-align: justify;
+    /*Выравнивание текста по ширине, что означает одновременное выравнивание по левому и правому краю. Чтобы произвести это действие браузер в этом случае добавляет пробелы между словами.*/
+    padding: 5px 10px 5px 10px;
+    border: 4px solid #d8780a;
+    background: #bfdd5c;
+    margin: 0px 5px 5px 5px;
+    /*Устанавливает величину отступа от верхнего края границы до текущего элемента*/
+    border-radius: 7px;
+    /*Округления углов границы элемента*/
+}
+
+/*Подвал, нижняя часть сайта.*/
 
 .End{
     clear: both;
@@ -134,7 +194,7 @@ a:hover {
     /*Округления углов границы элемента*/
     text-align: center;
     border: 4px solid #d8780a;
-    margin: 5px;
+    margin: 5px 5px 5px 5px;
     padding: 40px;
     /*Задаем внутренний отступ от внутн. элемента до границы.*/
     
