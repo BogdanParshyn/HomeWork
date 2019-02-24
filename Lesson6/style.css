@@ -1,0 +1,87 @@
+/*Устанавливаем характеристики тела, в которой находится таблица.*/
+body{
+    border: 1px solid #000;
+    margin: 20px 20px 10px 10px;
+    width: 1150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Устанавливаем характеристики таблицы.*/
+
+.t1{
+    /*border: 4px solid #000;*/
+    width: calc(100%-20px);
+    border-radius: 4px 4px 0px 0px;
+    color: rgb(0, 0, 0);
+    background: rgb(247, 245, 245);
+    margin: 0px -1px 4px 8px;
+    border-collapse: collapse;
+    
+}
+/*Устанавливаем характеристики верхней части.*/
+
+.t1 caption{
+    background: rgb(251, 251, 251);
+    font-size: 9px;
+}
+
+/*Устанавливаем характеристики ячеек.*/
+
+tr td{
+    border: 1px solid rgb(0, 0, 0); 
+    padding: 7px  14px 7px 17px;
+}
+
+/*Позиционируем текст в ячейках.*/
+
+.posit-top-right{ 
+    vertical-align: top;
+    text-align: right;
+}
+
+.posit-top-left{ 
+    vertical-align: top;
+    text-align: left;
+}
+
+.posit-top-center{ 
+    vertical-align: top;
+    text-align: center;
+}
+
+.posit-bottom-center{ 
+    vertical-align: bottom;
+    text-align: center;
+}
+
+/*Убираем лишнии полосы.*/
+
+.-rborder{ 
+    border-right-color: transparent;
+}
+
+.-bborder{ 
+    border-bottom-color: transparent;
+}
+
+/*Укрупняем необходимые нам линии.*/
+
+.TTborder{
+    border-top-width: 4px;
+}
+
+.bTborder{
+    border-bottom-width: 4px;
+}
+
+.rTborder{
+    border-right-width: 4px;
+}
+
+.lTborder{
+    border-left-width: 4px;
+}
+
+/*Правим правый боковой выступ.*/
+.S{
+    padding: 1px 1px 2px 0px;
+}
