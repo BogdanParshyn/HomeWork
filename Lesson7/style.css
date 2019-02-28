@@ -1,4 +1,4 @@
-a {
+a, a:visited {
     font-family: Roboto, Arial, Helvetica, sans-serif;
     /*font-family: для псевдоселекторов a:visited, a:hover, a:active можно и не указывать, 
     так как у всех них укзан тот же шрифт, что и у родителя "а".*/
