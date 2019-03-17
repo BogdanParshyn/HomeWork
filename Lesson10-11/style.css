@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&subset=cyrillic');
+/* На весь объект назначаем семейство шрифта*/
+
+body{
+    font-family:'Montserrat',sans-serif; 
+    margin: 0px;
+    padding: 0px;
+    background-color:red;
+}
+
+.clear {
+    clear: both;
+}
+
+/* 1.Header */
+
+header .container{
+    max-width:1171px;
+    max-height: 90px;
+    margin:0 auto;
+    align-items:center;
+    font-family:'Montserrat',sans-serif; /* На весь объект назначаем семейство шрифта*/ 
+}
+
+header {
+    background-color:#0f0f0f;
+    color:#ffffff;
+    padding:0px;
+    padding:0px;
+}
+
+.logo-top {
+    display: inline-block;
+    padding: 15px 0px 16px 0px;
+    margin: 0;
+    height: 59px;
+    width: 206px;
+    float: left; /* Выравнивание лого по левому краю, 
+    все остальные элементы обтекают его справа */
+}
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none; /* Убираем маркеры */
+    display: inline; /* Размещаем элементы списка горизонтально */
+    float: left; /* Выравнивание меню головы по левому краю, все остальные элементы, 
+    которые идут за ним обтекают его справа */ 
+}
+
+.menu-top ul {
+    
+    height: 15px;
+    width: 453px;
+    padding: 36px 45px 39px 95px;
+    float: left; /* Выравнивание лого по левому краю, 
+    все остальные элементы обтекают его справа */
+    margin: 0;
+}
+
+.menu-t-c, .menu-t-c-l {
+    height: 15px;
+    margin:0;
+    
+}
+
+.menu-t-c {
+    padding-right: 40px;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none; /* Убираем подчеркивание */
+}
+
+a:hover{
+    color: yellow;
+    opacity: 0.5;
+    transition:.7s;
+}
+
+div ul{
+    
+    padding: 35px 0px 36px 0px;
+    margin: 0px;
+    height: 19px;
+    
+    float: left;
+}
+
+div ul li {
+    
+    list-style-type: none; /* Убираем маркеры */
+    display: inline; /* Размещаем элементы списка горизонтально */
+    float: left; /* Выравнивание меню головы по левому краю, все остальные элементы, 
+    которые идут за ним обтекают его справа */
+}
+
+.link-t-r15 {
+    padding-right: 15px;
+}
+
+.link-t-r16 {
+    padding-right: 16px;
+}
+
+.link-t-r27 {
+    padding-right: 27px;
+    float: left;
+}
+
+.contact-top{
+    display: inline-block;
+    height: 90px;  
+}
+
+.phone{
+    text-align: left;
+    padding: 24px 0px 0px 0px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.timework-top {
+    text-align: right;
+}
+
+.timework-top a{
+    padding: 0px 0px 26px 0px;
+    font-size: 13px; 
+}
+
+/* 5.Footer */
+
+     
+
+
+
+
+
+    
+   
+
+    
+
+/*
+
+/*
+a{  
+    color: #ffffff; /* Задаем цвет а-шкам */
+    
+  /*  text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+/*
+a:hover{    
+    color: orange; /* Задаем цвет при наведении на текст */
+    /*opacity: 0.5; /* При наведении на ссылки задается прозрачность */
+}
+/*
+.logo-top{
+    width: 206px;
+    height: 59px;
+    padding: 15px 77px 16px 376px;
+    margin: 0px;
+    float: left;
+}
+
+.menu-top{   
+     
+    
+   
+    
+    
+    
+    
+    
+    
+}
+/*
+.menu-top ul li a{
+    float: left;
+    font-size: 15px; /* Задаем размер шрифта */
+    /*margin: 0px;
+    padding: 0px 18px 0px 18px;
+
+
+    
+    
+    
+    
+    
+    */
+}
+/*
+.link-top ul li{   
+     
+   
+    
+    text-align: center;
+    margin: 0;
+    padding: 0 5px;
+    float: left;
+}
+
+.contact-top{   
+    line-height: 90px;
+    
+    
+    
+   
+    
+    margin: 0;
+    float: left;
+    
+}
+
+.phone{
+    width: 185px;
+    height: 20px;
+    padding: 25px 376px 7px 0px;
+} 
+*/
+
+
+
+
+
+
+/*
+
+.header-up{
+    background: #0f0f0f;
+    margin: 0px;
+    padding: 0px;
+    max-width: auto;
+    
+    
+}
+
+ul{
+
+}
+
+li{
+    display: inline;
+    
+}
+
+.center-top-buttom li{
+    width: 453px;
+    height: 15px;
+    
+}
+
+.center-top-buttom li a{
+    font-size: 15px;
+    padding: 36px 0px 39px 0px;
+    color: #ffffff;
+    text-decoration: none;  
+    
+}
+
+.left-up-logo {
+    width: 206px;
+    height: 59px;
+    padding: 15px 95px 16px 376px;
+    margin: 0px;
+    float: left;
+}
+
+. a{
+    
+    
+      
+    
+    
+}
+
+.righte-up-contact{
+    
+}
+*/
