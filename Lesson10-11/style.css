@@ -79,7 +79,7 @@ a:hover{
 }
 
 div ul{
-    
+    width: 184px;
     padding: 35px 0px 36px 0px;
     margin: 0px;
     height: 19px;
@@ -97,15 +97,6 @@ div ul li {
 
 .link-t-r15 {
     padding-right: 15px;
-}
-
-.link-t-r16 {
-    padding-right: 16px;
-}
-
-.link-t-r27 {
-    padding-right: 27px;
-    float: left;
 }
 
 .contact-top{
@@ -131,7 +122,12 @@ div ul li {
 
 /* 5.Footer */
 
-     
+footer {
+    background-color:gray;
+    color:#ffffff;
+    padding:0px;
+    padding:0px;
+}  
 
 
 
