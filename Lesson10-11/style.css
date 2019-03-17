@@ -19,7 +19,7 @@ header .container{
     max-height: 90px;
     margin:0 auto;
     align-items:center;
-    font-family:'Montserrat',sans-serif; /* На весь объект назначаем семейство шрифта*/ 
+    overflow: hidden; /* Все что за пределами экрана прячется */
 }
 
 header {
@@ -78,7 +78,7 @@ a:hover{
     transition:.7s;
 }
 
-div ul{
+header div ul{
     width: 184px;
     padding: 35px 0px 36px 0px;
     margin: 0px;
@@ -123,15 +123,67 @@ div ul li {
 /* 5.Footer */
 
 footer {
-    background-color:gray;
+    background-color: #282828;
     color:#ffffff;
+    padding: 50px 0 50px 0;
     padding:0px;
-    padding:0px;
+    
 }  
 
+footer .container{
+    overflow: hidden; /* Все что за пределами экрана прячется */
+    max-width:1171px;
+    max-height: 199px;
+    margin:0 auto;
+    align-items:center;
+}
+
+.footer-logo {
+    display: inline-block;
+    padding: 50px 0px 90px 0px;
+    margin: 0;
+    height: 59px;
+    width: 206px;
+    float: left; /* Выравнивание лого по левому краю, 
+    все остальные элементы обтекают его справа */
+}
+
+.footer-info{   
+    margin: 0px;
+    float: left; /* Выравнивание лого по левому краю, 
+    все остальные элементы обтекают его справа */
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.footer-info-address{
+    padding: 49px 0px 0px 262px;
+}
+.footer-info-timework{
+    padding: 9px 0px 22px 262px;
+}
+
+.footer-link ul{
+    padding: 0px 0px 57px 301px;
+    margin: 0px;
+    float: left;
+}
 
 
-
+.footer-tel{
+    margin: 0px;
+    float: left; /* Выравнивание лого по левому краю, 
+    все остальные элементы обтекают его справа */
+    font-size: 22px;
+    font-weight: 500;
+    padding: 51px 0px 0px 291px;
+    text-align: left;
+}
+    
+    
+    
+    
 
     
    
