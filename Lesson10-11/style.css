@@ -5,7 +5,8 @@ body{
     font-family:'Montserrat',sans-serif; 
     margin: 0px;
     padding: 0px;
-    background-color:red;
+    
+    max-width:1920px;
 }
 
 .clear {
@@ -124,75 +125,134 @@ div ul li {
 
     .sushifly .container{
         overflow: hidden; /* Все что за пределами экрана прячется */
+        height: 642px;
+        max-width:1920px;
+        margin:0 auto;
+        align-items:center;
+        background: url(./img/2.circle/sushi-backgraund.png) no-repeat center center; 
+    }
 
+    .sushifly-circle{
+        width: 427px;
+        height: 427px;
+        border-radius: 213.5px;
+        background-color: #f32121;
+        position: absolute;
+        margin: 89px 747px 126px 747px;
+        text-align: center; 
+        color: #ffffff;
+        box-shadow: 2px 1px 100px 0px rgba(250, 0, 0, 0.64); 
+    }
+        
+    .sushifly-circle-t1{
+        font-size: 36px;
+        font-weight: 300;
+        padding: 107px 95px 0px 95px;
+    }
+
+    .sushifly-circle-t2{
+        font-size: 46px;
+        font-weight: 900;
+        padding: 16px 0px 149px 0px;
+    }
+        
+    .rel{
+        position: relative;
+    }
+
+    .flying-sushi{
+        top: 44px;
+        left: 110px;         
+    }
+
+    .sheet-top{
+        bottom: 544px;
+        right: 185px;  
+    }
+
+    .caviar{
+        bottom: 500px;
+        left: 112px; 
+    }
+
+    .sheet-bot{
+        bottom: 84px;
+        right: 105px; 
+    }
+        
+    .sushi-hand{
+        top: 44px;
+        left: 8px;      
+    }
+
+    .shushione{
+        bottom: 497px;
+        right: 122px;
     }
 
 
 
 
+                /* 5.Footer */
 
-
-
-/* 5.Footer */
-
-footer {
-    background-color: #282828;
-    color:#ffffff;
-    padding: 50px 0 50px 0;
-    padding:0px;
+                footer {
+                    background-color: #282828;
+                    color:#ffffff;
+                    padding: 50px 0 50px 0;
+                    padding:0px;
     
-}  
+                }  
 
-footer .container{
-    overflow: hidden; /* Все что за пределами экрана прячется */
-    max-width:1171px;
-    max-height: 199px;
-    margin:0 auto;
-    align-items:center;
-}
+                footer .container{
+                    overflow: hidden; /* Все что за пределами экрана прячется */
+                    max-width:1171px;
+                    max-height: 199px;
+                    margin:0 auto;
+                    align-items:center;
+                }
 
-.footer-logo {
-    display: inline-block;
-    padding: 50px 0px 90px 0px;
-    margin: 0;
-    height: 59px;
-    width: 206px;
-    float: left; /* Выравнивание лого по левому краю, 
-    все остальные элементы обтекают его справа */
-}
+                .footer-logo {
+                    display: inline-block;
+                    padding: 50px 0px 90px 0px;
+                    margin: 0;
+                    height: 59px;
+                    width: 206px;
+                    float: left; /* Выравнивание лого по левому краю, 
+                        все остальные элементы обтекают его справа */
+                    }
 
-.footer-info{   
-    margin: 0px;
-    float: left; /* Выравнивание лого по левому краю, 
-    все остальные элементы обтекают его справа */
-    font-size: 15px;
-    font-weight: 500;
-    text-align: center;
-}
+                .footer-info{   
+                    margin: 0px;
+                    float: left; /* Выравнивание лого по левому краю, 
+                        все остальные элементы обтекают его справа */
+                    font-size: 15px;
+                    font-weight: 500;
+                    text-align: center;
+                }
 
-.footer-info-address{
-    padding: 49px 0px 0px 262px;
-}
-.footer-info-timework{
-    padding: 9px 0px 22px 262px;
-}
+                .footer-info-address{
+                    padding: 49px 0px 0px 262px;
+                }
+                .footer-info-timework{
+                    padding: 9px 0px 22px 262px;
+                }
 
-.footer-link ul{
-    padding: 0px 0px 57px 301px;
-    margin: 0px;
-    float: left;
-}
+                .footer-link ul{
+                    padding: 0px 0px 57px 301px;
+                    margin: 0px;
+                    float: left;
+                }
 
 
-.footer-tel{
-    margin: 0px;
-    float: left; /* Выравнивание лого по левому краю, 
-    все остальные элементы обтекают его справа */
-    font-size: 22px;
-    font-weight: 500;
-    padding: 51px 0px 0px 291px;
-    text-align: left;
-}
+                .footer-tel{
+                    margin: 0px;
+                    float: left; /* Выравнивание лого по левому краю, 
+                        все остальные элементы обтекают его справа */
+                    font-size: 22px;
+                    font-weight: 500;
+                    padding: 51px 0px 0px 291px;
+                    text-align: left;
+                }
     
 
     
