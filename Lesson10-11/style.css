@@ -120,6 +120,19 @@ div ul li {
     font-size: 13px; 
 }
 
+    /* 2 Slider - sushi fly */
+
+    .sushifly .container{
+        overflow: hidden; /* Все что за пределами экрана прячется */
+
+    }
+
+
+
+
+
+
+
 /* 5.Footer */
 
 footer {
@@ -181,7 +194,7 @@ footer .container{
     text-align: left;
 }
     
-    
+
     
     
 
